@@ -13,7 +13,8 @@ const Sidebar = () => {
           <ul className="space-y-2 font-medium mt-48">
             <li>
               <Link
-                to="/profile"
+                // to="/profile"
+                to="/"
                 className="flex items-center p-2 text-white rounded-lg hover:bg-blue-100 hover:text-blue-900 border-b-2"
               >
                 <span className="ml-3">Profile</span>
