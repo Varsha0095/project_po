@@ -1,0 +1,9 @@
+.footer {
+    margin: 20px auto;
+    padding: 20px;
+    border-top: 2px solid gray;
+    align-items: center;
+}
+.footer button{
+    margin-left: 65em;
+}

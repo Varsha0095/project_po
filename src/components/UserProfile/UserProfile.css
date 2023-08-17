@@ -1,0 +1,56 @@
+.col {
+    border-right: 1px solid gray;
+}
+
+.data {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data h6 {
+    margin-left: 6em;
+    margin-top: 2em;
+    font-size: larger;
+    margin-left: 40px;
+    color: black;
+    font-weight: bolder;
+}
+.data div {
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.data2 {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: gray;
+}
+.data2 h6 {
+    margin-left: 6em;
+    margin-top: 2em;
+}
+.data2 div {
+    padding: 5px;
+    margin-top: 10px;
+}
+.data3{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: gray;
+}
+.data3 h6 {
+    margin-left: 6em;
+    margin-top: 2em;
+}
+.data3 div {
+    padding: 4px;
+    margin-top: 10px;
+}

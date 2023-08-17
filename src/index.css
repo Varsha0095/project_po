@@ -1,4 +1,34 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container {
+  width: 180%;
+  height: 55vh;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100vh;
+  padding: 20px;
+}
+
+.bottom-right-modal {
+  position: relative;
+  transform: translate(calc(100% - 20px), calc(100% - 20px)); /* Adjust as needed */
+  max-width: 400px;
+  width: 100%;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.bottom-right-modal .modal-content {
+  border-radius: 10px;
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +40,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
